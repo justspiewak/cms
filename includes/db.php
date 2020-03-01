@@ -12,8 +12,8 @@
    ];
    
     $connection =  mysqli_connect($db[DB_HOST], $db[DB_USER], $db[DB_PASS], $db[DB_NAME]);
-    if ($connection){
-        echo 'We are connected';
-    } else {
-        die(mysqli_connect_error());
-    }
+    // if ($connection){
+    //     echo 'We are connected';
+    // } else {
+    //     die(mysqli_connect_error());
+    // }
